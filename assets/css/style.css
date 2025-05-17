@@ -206,6 +206,10 @@
     text-transform: uppercase;
     color: #03498A;
 }
+.images-width{
+    max-width: 723px;
+    min-height: 528px;
+}
 
 .our-work-pt {
     padding-top: 146px;
