@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+.container {
+    max-width: 1505px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+/* Navabr */
+
+.align-items-center {
+    align-items: center;
+}
+
+.postion-fixed {
+    position: fixed;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.py-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.z-2 {
+    z-index: 2;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.justi-space-between {
+    justify-content: space-between;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.lasles {
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.7px;
+    color: white;
+    text-align: left;
+}
+
+.lasles b {
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.7px;
+    text-align: left;
+}
+
+.navbar-items {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+    text-align: left;
+    color: white;
+}
+
+.navbar-items:hover {
+    color: red;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.btn-sign {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 17px 31px 17px 31px;
+    border-radius: 50px;
+    line-height: 18.96px;
+    text-align: left;
+    color: #003465;
+    background-color: #F9DD00;
+    border-radius: 12px;
+    border: 2px solid #F9DD00;
+}
+
+.btn-sign:hover {
+    background-color: #F9DD00;
+    color: #003465;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+.gap-25 {
+    gap: 25px;
+}
+
+
+.menu-btn-sign {
+    display: none;
+}
+
+.background-blue {
+    background-color: #003465;
+    height: 100%;
+}
+
+.header-pb-120 {
+    padding-bottom: 120px !important;
+}
+
+/* hero section start */
+.hero-background-images {
+    background-image: url(../images/webp/hero-section-images.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 561px;
+    width: 100%;
+}
+
+.justi-content-center {
+    justify-content: center;
+}
+
+.postion-relative {
+    position: relative;
+}
+
+.postion-absloute {
+    position: absolute;
+}
+
+.common {
+    top: 32%;
+    right: 25%;
+}
+
+.card-heading-franzos {
+    font-family: "Rubik", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 93%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 37px;
+}
+
+.card-paragraph {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: white;
+}
+.flex-direction-column{
+    flex-direction: column;
+}
+.card-pt-52{
+    padding-top: 52px;
+}
+.align-basline{
+    align-items: baseline;
+}
+
+.our-work-hero {
+    font-family: "Rubik", sans-serif;
+    font-weight: 900;
+    font-size: 264.67px;
+    line-height: 93%;
+    letter-spacing: -6%;
+    text-transform: uppercase;
+    color: #03498A;
+}
+
+.our-work-pt {
+    padding-top: 146px;
+}
+
+.our-work-heading {
+    font-family: "Rubik", sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 93%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: white;
+}
+
+.gap-94 {
+    gap: 94px;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width:1100px) {
+
+    /* Navabr */
+    .menubar {
+        width: 40px;
+        height: 34px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        z-index: 100;
+    }
+
+    .menubar span {
+        height: 5px;
+        width: 100%;
+        background-color: red;
+        border-radius: 3px;
+    }
+
+    .nav-items {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        left: -100%;
+        justify-content: center;
+        align-items: center;
+        z-index: 90;
+    }
+
+    .show {
+        left: 0;
+    }
+
+    .sign-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width:768px) {
+    .menu-btn-sign {
+        font-family: "Rubik", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.96px;
+        text-align: left;
+        color: #003465;
+        background-color: #F9DD00;
+        padding: 17px 31px 17px 31px;
+        border-radius: 12px;
+        border: 2px solid #F9DD00;
+    }
+
+    .menu-btn-sign:hover {
+        background-color: #F9DD00;
+        color: #003465;
+    }
+
+
+}
+
+@media (max-width:567px) {
+    .menu-btn-sign {
+        font-family: "Rubik", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.96px;
+        text-align: left;
+        color: #003465;
+        background-color: #F9DD00;
+        padding: 17px 31px 17px 31px;
+        border: 2px solid #F9DD00;
+        border-radius: 12px;
+    }
+
+    .menu-btn-sign:hover {
+        background-color: #F9DD00;
+        color: #003465;
+    }
+
+    .menu-btn {
+        font-family: "Rubik", sans-serif;
+        color: #0B132A;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.96px;
+        text-align: left;
+    }
+
+    .menu-btn:hover {
+        color: #F53855;
+    }
+
+    .sign-in {
+        display: none;
+    }
+
+    .btn-sign {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .menu-btn-sign {
+        display: block;
+    }
+
+    .menu-btn-sign {
+        font-family: "Rubik", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.96px;
+        text-align: left;
+        color: #003465;
+        background-color: #F9DD00;
+        padding: 10px 24px 10px 22px;
+        border-radius: 12px;
+        border: 2px solid #F9DD00;
+    }
+
+    .menu-btn-sign:hover {
+        background-color: #F9DD00;
+        color: #003465;
+    }
+
+    .sm-direction-column {
+        flex-direction: column;
+    }
+
+
+}
